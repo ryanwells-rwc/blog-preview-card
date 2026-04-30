@@ -111,7 +111,7 @@ button {
 	cursor: pointer;
 }
 
-button:focus {
+button:focus, button:hover {
 	outline: 1px solid var(--c-gray-950);
 }
 
