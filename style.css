@@ -6,17 +6,8 @@
 }
 
 :root {
-	/*
-	--fs-14: calc(14 / 16 * 1rem);
-	*/
 	--fs-14: clamp(0.75rem, 0.7059859154929577rem + 0.18779342723004694vw, 0.875rem);
-	/*
-	--fs-16: calc(16 / 16 * 1rem);
-	*/
 	--fs-16: clamp(0.875rem, 0.8309859154929577rem + 0.18779342723004694vw, 1rem);
-	/*
-	--fs-24: calc(24 / 16 * 1rem);
-	*/
 	--fs-24: clamp(1.25rem, 1.1619718309859155rem + 0.3755868544600939vw, 1.5rem);
 
 	--font-size-text-preset-1: var(--fs-24);
@@ -51,13 +42,7 @@ main {
 }
 
 .card {
-	/*
-	width: 384px;
-	*/
 	width: clamp(20.4375rem, 19.183098591549296rem + 5.352112676056338vw, 24rem);
-	/*
-	height: 522px;
-	*/
 	height: clamp(31.3125rem, 30.850352112676056rem + 1.9718309859154928vw, 32.625rem);
 	border-radius: 20px;
 	background-color: var(--c-white);
