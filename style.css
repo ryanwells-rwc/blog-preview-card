@@ -138,3 +138,16 @@ h1:hover {
 .author-container p {
 	font-size: calc(14 / 16 * 1rem);
 }
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.attribution a:focus {
+	outline: 2px solid hsl(228, 45%, 44%);
+}
